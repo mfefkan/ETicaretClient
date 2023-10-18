@@ -10,6 +10,7 @@ declare var $: any
 export class AppComponent {
   title = 'ETicaretClient';
 }
-$(document).ready(() => {
-  alert ("Hoşgeldiniz")
+
+ $(document).ready(() => {
+   alert ("Hoşgeldiniz")
 })
