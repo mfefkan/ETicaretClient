@@ -26,13 +26,13 @@ export class DashboardComponent implements OnInit{
 
   m(){
 
-   // this.alertify.message("asdfasdf", MessageType.Error,Position.BottomLeft,3,true )
+    this.alertify.message("asdfasdf", MessageType.Error,Position.BottomLeft,3,false )
 
-    this.alertify.message( "Merhabasdasda", {
-      messageType : MessageType.Succes,
-      delay : 5,
-      position : Position.BottomCenter
-    })
+    // this.alertify.message( "Merhabasdasda", {
+    //   messageType : MessageType.Succes,
+    //   delay : 5,
+    //   position : Position.BottomCenter
+    // })
   }
 
   d(){
