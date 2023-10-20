@@ -1,7 +1,8 @@
-import { NgModule } from '@angular/core';
+import { NgModule, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OrdersComponent } from './orders.component';
 import { RouterModule } from '@angular/router';
+import { NgxSpinnerService } from 'ngx-spinner';
 
 
 
@@ -16,4 +17,7 @@ import { RouterModule } from '@angular/router';
     ])
   ]
 })
-export class OrdersModule { }
+export class OrdersModule  {
+
+
+}
