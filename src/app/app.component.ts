@@ -11,19 +11,25 @@ declare var $: any
 })
 export class AppComponent {
   title = 'ETicaretClient';
-  constructor(private toastrService: CustomToastrService) {
+  // constructor(private toastrService: CustomToastrService) {
 
-    toastrService.message("marhabaaaaa","asasdadlan", {
-      messageType: ToastrMessageType.Error,
-      position: ToastrPosition.BottomFullWidth
-    });
-    // toastrService.message("ayşe","fatma",ToastrMessageType.Info,ToastrPosition.BottomFullWidth);
-    // toastrService.message("ayşe","fatma",ToastrMessageType.Info,ToastrPosition.BottomLeft);
-    // toastrService.message("hayriye","fatma",ToastrMessageType.Info,ToastrPosition.TopCenter);
+  //   toastrService.message("marhabaaaaa","asasdadlan", {
+  //     messageType: ToastrMessageType.Error,
+  //     position: ToastrPosition.BottomFullWidth
+  //   });
+  //   // toastrService.message("ayşe","fatma",ToastrMessageType.Info,ToastrPosition.BottomFullWidth);
+  //   // toastrService.message("ayşe","fatma",ToastrMessageType.Info,ToastrPosition.BottomLeft);
+  //   // toastrService.message("hayriye","fatma",ToastrMessageType.Info,ToastrPosition.TopCenter);
+  //}
 
-    
-  }
+
+
 }
+
+
+$.get("https://localhost:7274/api/products",data =>{
+  console.log(data)
+})
 
 //  $(document).ready(() => {
 //    alert ("Hoşgeldiniz")
